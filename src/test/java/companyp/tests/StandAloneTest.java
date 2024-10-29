@@ -30,7 +30,8 @@ public class StandAloneTest {
 		String productName = "ZARA COAT 3";
 		
 //		by using below code, all the files related to chromedriver() automatically downloaded.
-//		we have mentioned dependencies of "WebDriverManager" in the pom.xml file which downloads  		
+//		we have mentioned dependencies of "WebDriverManager" in the pom.xml file which downloads
+//		new comments added for CICD webhook purpose		
 		WebDriverManager.chromedriver().setup();
 
 		WebDriver driver = new ChromeDriver();
